@@ -1,4 +1,4 @@
-/* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 *{
@@ -68,7 +68,7 @@ header {
   }
   
   button {
-    margin: 0; /* Remove the margins from the button */
+    margin: 0; 
   }
 nav{
     display: flex;
@@ -172,11 +172,7 @@ hero {
     margin-bottom: 1em;
 }
 
-.all-candies h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1em;
-}
+
 
 .features-list {
     display: grid;
@@ -222,35 +218,7 @@ hero {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
 }
 
-.candy img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-}
 
-.all-candies-list {
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-gap: 1em;
-}
-
-.candy {
-    background-color: #ffffff;
-    padding: 1.5em;
-    border-radius: 1.5em;
-    /* border: 2px solid #f6f7f8; */
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
-}
-
-.buy {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 button {
     background: #5c444d;
