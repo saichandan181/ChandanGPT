@@ -251,7 +251,8 @@ hero {
     justify-content: space-between;
     align-items: center;
 }
-.button {
+
+button {
     background: #5c444d;
     border-radius: .6em;
     color: #fff;
@@ -263,14 +264,15 @@ hero {
     width: 200px;
     height: 50px;
     margin: 1em 0;
+    display: inline-block; 
  
 }
 
-.button:hover {
+button:hover {
     box-shadow: 0 0 60px rgba(255, 8, 156, 0.2);
 }
 
-.button:active {
+button:active {
     transform: scale(0.98);
 }
 
